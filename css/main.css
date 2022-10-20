@@ -1,0 +1,47 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.logo{
+  padding-top: 50px;
+}
+
+.ul-list {
+   display: flex;
+   flex-wrap: wrap;
+   list-style-type: none;
+}
+ 
+ul{
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px){
+  #form{
+    flex-direction: column;
+  }
+  #search{
+    margin-top: 10px;
+  }
+  #aa_zz{
+    margin-top: 10px;
+  }
+  #btn{
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 764px){
+  #logo{
+    width: 500px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 518px){
+  #logo{
+    width: 300px;
+    height: 100px;
+  }
+}
